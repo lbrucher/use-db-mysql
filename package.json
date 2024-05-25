@@ -1,0 +1,22 @@
+{
+  "name": "use-db-mysql",
+  "version": "1.0.0",
+  "description": "MySQL driver for the use-db library",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive --slow 200 -R spec test"
+  },
+  "keywords": [
+    "sql",
+    "mysql"
+  ],
+  "author": "Laurent Brucher <laurent.brucher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "should": "^13.2.3"
+  }
+}
