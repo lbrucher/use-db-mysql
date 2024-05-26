@@ -2,7 +2,7 @@
 const TH = require('./test-helper');
 const should = require('should');
 
-describe.only('Migrations', () => {
+describe('Migrations', () => {
 
   TH.beforeEach([["migs"]]);
 
